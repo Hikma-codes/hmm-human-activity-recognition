@@ -30,8 +30,9 @@ Jumping and staying still were classified correctly in both test recordings. Sta
 
 ## Repository Structure
 
-- `notebooks/` — Jupyter notebook containing preprocessing, feature extraction, HMM training, decoding, and evaluation.
-- `report/` — Project report.
+- `dataset/` — Labelled smartphone sensor data organised by activity (`standing`, `walking`, `jumping`, and `staystill`). Each activity contains accelerometer and gyroscope CSV files, with 100 CSV files per activity.
+- `notebooks/` — Jupyter notebook containing data inspection, preprocessing, feature extraction, HMM training, Viterbi decoding, classification, and evaluation.
+- `report/` — Project report covering the motivation, data collection, methodology, results, and discussion.
 
 ## Tools and Technologies
 
