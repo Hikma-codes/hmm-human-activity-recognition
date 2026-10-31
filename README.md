@@ -13,6 +13,50 @@ Accelerometer and gyroscope measurements are used to extract time-domain and fre
 - Jumping
 - Staying still
 
+## Getting Started
+
+### 1. Clone the Repository
+
+Open a terminal and run:
+
+```bash
+git clone https://github.com/Hikma-codes/hmm-human-activity-recognition.git
+cd hmm-human-activity-recognition
+```
+
+### 2. Set Up the Environment
+
+This project uses Python and Jupyter Notebook. The notebook can be opened and run using Google Colab or a local Python environment.
+
+The main libraries used include:
+
+- NumPy
+- pandas
+- scikit-learn
+- Matplotlib
+- Seaborn
+- SciPy
+
+To install the dependencies in a local Python environment, run:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn scipy
+```
+
+### 3. Open the Notebook
+
+Navigate to the `notebooks/` directory and open:
+
+`HMM_Human_Activity_Recognition.ipynb`
+
+You can open it using Jupyter Notebook or upload it to Google Colab.
+
+### 4. Access the Dataset
+
+The `dataset/` directory contains the processed sensor data, organised by activity. Each activity has separate accelerometer and gyroscope CSV files.
+
+The original sensor recordings were collected and stored as ZIP files. The notebook's original data-loading workflow uses these ZIP recordings from Google Drive. To reproduce that workflow, the original ZIP files must also be available in the expected Google Drive folder.
+
 ## Methodology
 
 1. Collect smartphone accelerometer and gyroscope recordings for the four activities.
@@ -43,7 +87,7 @@ These results are preliminary because the test set is small. The standing and wa
 - NumPy and pandas
 - scikit-learn
 - Matplotlib and Seaborn
-- Gaussian Hidden Markov Models
+- Hidden Markov Models
 
 ## Limitations and Future Work
 
